@@ -16,11 +16,24 @@ A lightweight Windows desktop app that instantly opens champion build pages for 
 
 ## Usage
 
+Double-click `aram_lookup.exe` to launch, or run from the command line:
+
 ```bash
 python aram_lookup.py
 ```
 
 Type a champion name and press **Enter** or click **Search Builds**. Two browser tabs will open — one on u.gg and one on metasrc.
+
+## Building the Executable
+
+To package into a standalone `.exe` using [PyInstaller](https://pyinstaller.org):
+
+```bash
+pip install pyinstaller
+pyinstaller --onefile --windowed aram_lookup.py
+```
+
+The executable will be in the `dist/` folder. `--windowed` prevents a console window from appearing alongside the app.
 
 ![ARAM Build Lookup](screenshots/aram_build_lookup.png)
 
