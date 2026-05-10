@@ -1,8 +1,6 @@
 # ARAM Build Lookup
 
-<p align="center">
-  <img src="screenshots/aram_build_lookup.png" alt="ARAM Build Lookup">
-</p>
+![ARAM Build Lookup](screenshots/aram_build_lookup.png)
 
 A lightweight Windows desktop app that instantly opens champion build pages for League of Legends ARAM and Arena Mayhem modes.
 
