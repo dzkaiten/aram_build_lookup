@@ -22,6 +22,8 @@ python aram_lookup.py
 
 Type a champion name and press **Enter** or click **Search Builds**. Two browser tabs will open — one on u.gg and one on metasrc.
 
+![ARAM Build Lookup](screenshots/aram_build_lookup.png)
+
 ## Themes
 
 | Theme | Description |
