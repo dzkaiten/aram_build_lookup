@@ -1,5 +1,7 @@
 # ARAM Build Lookup
 
+![ARAM Build Lookup](screenshots/aram_build_lookup.png)
+
 A lightweight Windows desktop app that instantly opens champion build pages for League of Legends ARAM and Arena Mayhem modes.
 
 ## Features
@@ -34,8 +36,6 @@ pyinstaller --onefile --windowed aram_build_lookup.py
 ```
 
 The executable will be in the `dist/` folder. `--windowed` prevents a console window from appearing alongside the app.
-
-![ARAM Build Lookup](screenshots/aram_build_lookup.png)
 
 ## Themes
 
